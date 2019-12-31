@@ -1,0 +1,6 @@
+flyai
+numpy
+Pillow
+torch
+torchvision
+albumentations
