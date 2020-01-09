@@ -33,7 +33,7 @@ class CinicData(Dataset):
     def _load_image(self, index):
         img_path = osp.join(DATA_PATH, self.image_file[index]['image_path'])
         img = cv2.imread(img_path)
-        if img.shape != (32,32,3): print("img shape: "+img.shape)
+        if img.shape != (32,32,3): print("img shape: ", img.shape)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         return img
 
