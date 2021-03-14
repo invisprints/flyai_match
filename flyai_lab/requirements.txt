@@ -1,0 +1,3 @@
+flyai==0.6.9
+torch==1.2.0
+torchvision==0.4.0
